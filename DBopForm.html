@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form for Sending data to Server</title>
+</head>
+<body>
+<h3>Enter the form data</h3>
+<form action="DBopServForm" method="post">
+<table>
+<tr><td>Roll:</td> <td><input type="number" name="roll" maxlength="10" /></td></tr>
+<tr><td>Name:</td> <td><input type="text" name="name" maxlength="50" /></td></tr>
+<tr><td>Address:</td> <td><textarea rows="4" cols="50" name="address" maxlength="100" >Enter the address
+</textarea></td></tr>
+</table>
+<h6>
+<input type="submit" value="Add to database" />
+</h6>
+<h3>Retrieve the table data</h3>
+<h6><a href="DBopServForm">Click here </a> to retrieve all the rows in database</h6>
+</form>
+</body>
+</html>
