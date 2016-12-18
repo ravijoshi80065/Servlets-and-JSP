@@ -5,4 +5,4 @@ Contains working codes for servlets and jsp operations
 
 2:DBop**** files are source files for a simple app which performs simple insert and retrieve operation on a MySql table present on server
 
-3:ConfigContext**** files are source files for a simple app which shows how to use Servletconfig and ServletContext to pass inforamtion to a servlet.In this case we are passing database driver name,database URL tablename,username,passsword by web.xml.
+3:ConfigContext**** files are source files for a simple app which shows how to use Servletconfig and ServletContext to pass information to a servlet.In this case we are passing database driver name,database URL tablename,username,passsword to servets through web.xml.
